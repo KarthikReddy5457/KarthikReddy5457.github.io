@@ -159,9 +159,26 @@ footer {
     margin-top: 20px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     header {
-        flex-wrap:wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    img#Profile {
+        width: 120px;
+    }
+    .section{
+        padding:20px;
+    }
+    h2,p {
+        font-size: 1.2em;
     }
 }
         
